@@ -9,7 +9,7 @@ set cpo&vim
 " Public functions {{{1
 
 function! syntastic#util#isRunningWindows() abort " {{{2
-    return has('win16') || has('win32') || has('win64') || has('win32unix')
+    return has('win16') || has('win32') || has('win64')
 endfunction " }}}2
 
 function! syntastic#util#DevNull() abort " {{{2
